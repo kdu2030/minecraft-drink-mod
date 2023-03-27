@@ -12,6 +12,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> CAN = ITEMS.register("can", () -> new Can());
 
+    public static final RegistryObject<Item> RED_BULL = ITEMS.register("red_bull", () -> new RedBull());
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
